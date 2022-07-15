@@ -15,7 +15,7 @@ Includes Google Cloud Storage, Google BigQuery, CLI, SQL, Data Studio
 The proverbial saying 'You are what you eat' is the notion that to be fit and healthy you need to eat good food. But in reality, people don't have information about what are the unhealthy foods we should try to avoid in our daily life. This data analysis provides insights of the food facts in regards to carbohydrates, as well as breakdowns by generic names, brands and stores.
 
 ## How I built it
-downloaded an open dataset from Kaggle, uploaded it to Google Cloud Storage, loaded the raw dataset into BigQuery, created new aggregated data tables and a dashboard showcasing the results. 
+I downloaded an open dataset from Kaggle, uploaded it to Google Cloud Storage, loaded the raw dataset into BigQuery, created new aggregated data tables and a dashboard showcasing the results. 
 
 ## Challenges I ran into
 ### Loading data to BigQuery
