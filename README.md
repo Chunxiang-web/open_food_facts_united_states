@@ -23,7 +23,7 @@ Given the size (1 GB), loading the data into BigQuery proved more difficult than
 
 Next I tried to "Create from Cloud Storage" but there were issues with column names copying over correctly.
 
-Finally I resorted to using the CLI with the command. The first attempt failed due to bad records, but was able to finally resolve the issue by using the --max_bad_records record.
+Finally I resorted to using the CLI. The first attempt failed due to bad records, but was able to finally resolve the issue by using the --max_bad_records record.
 
 ### Data Studio Charts
 It took a little while to understand how to add data sources, and eventually settled on using 4 created tables in BigQuery vs. custom queries due to speed purposes.
