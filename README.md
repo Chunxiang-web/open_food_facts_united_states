@@ -2,7 +2,7 @@
 An exploration into US data from Open Food Facts public database using Google Cloud, specifically BigQuery and Google Data Studio.
 
 ## Tech/Frameworks Used
-Includes Google Cloud Storage, Google BigQuery, CLI, SQL, Data Studio
+Includes Google Cloud Storage, Google BigQuery, CLI, SQL, Data Studio.
 
 ## Screenshots
 ### BigQuery Table Example
