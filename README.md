@@ -14,10 +14,10 @@ Includes Google Cloud Storage, Google BigQuery, CLI, SQL, Data Studio.
 ## Inspiration
 The proverbial saying 'You are what you eat' is the notion that to be fit and healthy you need to eat good food. But in reality, people don't have information about what are the unhealthy foods we should try to avoid in our daily life. This data analysis provides insights of the food facts in regards to carbohydrates, as well as breakdowns by generic names, brands and stores.
 
-## How I built it
+## How I Built It
 I downloaded an open dataset from Kaggle, uploaded it to Google Cloud Storage, loaded the raw dataset into BigQuery, created new aggregated data tables and a dashboard showcasing the results. 
 
-## Challenges I ran into
+## Challenges I Ran Into
 ### Loading data to BigQuery
 Given the size (1 GB), loading the data into BigQuery proved more difficult than I thought. To actually load this data table I tried to "Create from upload" via the BigQuery UI but the first hit limitations as files of 100MB or less are unable to be uploaded.
 
@@ -28,7 +28,7 @@ Finally I resorted to using the CLI. The first attempt failed due to bad records
 ### Data Studio Charts
 It took a little while to understand how to add data sources, and eventually settled on using 4 created tables in BigQuery vs. custom queries due to speed purposes.
 
-## Installation / How to use?
+## Installation / How To Use?
 To run this on your own Google Cloud project
 - Create Google Cloud project (there's $300 in free credits and you won't be charged for overage unless you explicitly opt in to a paid account)
 - Download Open Food Facts dataset from Kaggle https://www.kaggle.com/datasets/openfoodfacts/world-food-facts
