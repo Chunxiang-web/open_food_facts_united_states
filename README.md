@@ -18,12 +18,15 @@ Next I tried to "Create from Cloud Storage" but there were issues with column na
 
 Finally I resorted to using the CLI with the command. The first attempt failed due to bad records, but was able to finally resolve the issue by using the --max_bad_records record.
 
-The command that eventually worked was
-bq load --autodetect --max_bad_records=5000 --source_format=TSV food_data_kaggle.food_data_kaggle gs://food_data_b/en.openfoodfacts.org.products.tsv
-
 ### Data Studio Charts
 It took a little while to understand how to add data sources, and eventually settled on using 4 created tables in BigQuery vs. custom queries due to speed purposes.
 
-## Accomplishments that I am proud of
-I now have familiarity with Google Cloud and various tools within the platform.
+## Installation / How to use?
+To run this on your own Google Cloud project
+- Create Google Cloud project (there's $300 in free credits and you won't be charged for overage unless you explicitly opt in to a paid account)
+- Download Open Food Facts dataset from Kaggle https://www.kaggle.com/datasets/openfoodfacts/world-food-facts
+- Create bucket and load to Cloud Storage
+- Load file to BigQuery using the following CLI command: bq load --autodetect --max_bad_records=5000 --source_format=TSV food_data_kaggle.food_data_kaggle gs://food_data_b/en.openfoodfacts.org.products.tsv
+- Create a dataset in BigQuery, then create 4 aggregated tables using the SQL files included
+- Go to Data Studio webpage and create a new dashboard, using the 4 tables as data sources
 
