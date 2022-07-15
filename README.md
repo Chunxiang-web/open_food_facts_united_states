@@ -4,6 +4,13 @@ An exploration into US data from Open Food Facts public database using Google Cl
 ## Tech/Frameworks Used
 Includes Google Cloud Storage, Google BigQuery, CLI, SQL, Data Studio
 
+## Screenshots
+### BigQuery Table Example
+![alt text](https://github.com/Chunxiang-web/open_food_facts_united_states/blob/main/screenshots/bigquery_table_example.png)
+
+### Data Studio Dashboard
+![alt text](https://github.com/Chunxiang-web/open_food_facts_united_states/blob/main/screenshots/data_studio_dashboard.png)
+
 ## Inspiration
 The proverbial saying 'You are what you eat' is the notion that to be fit and healthy you need to eat good food. But in reality, people don't have information about what are the unhealthy foods we should try to avoid in our daily life. This data analysis provides insights of the food facts in regards to carbohydrates, as well as breakdowns by generic names, brands and stores.
 
